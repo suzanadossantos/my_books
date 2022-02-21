@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,300&display=swap');
+
+:root{
+    --cinza: #3F3D56;
+    --cinza_claro: #F2F2F2;
+    --amarelo: #F1E81D;
+    --branco: #FFFFFF;
+    --preto: #000000;
+
+    --fonte-prin: 'Lato', Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--fonte-prin);
+    color: var(--preto);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 2px;
+    justify-content: space-evenly;
+}
+
+header img{
+    width: 70px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+header input#barra_pesquisa{
+    border: 2.5px solid;
+    border-radius: 5px;
+    border-color: var(--preto);
+    width: 55%;
+    height: 36px;
+    padding: 10px;
+    color: #F1E81D;
+
+    font-size: 16px;
+}
+
+header input#barra_pesquisa:hover{
+    border-color: #F1E81D;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+header nav a{
+    font-size: 20px;
+    color: var(--preto);
+    font-weight: bold;
+}
+
+header nav a:hover{
+    color: #F1E81D;
+}
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2px;
+    margin: 5px;
+
+    font-family: var(--fonte-prin);
+    font-size: 30px;
+}
+
+main img{
+    width: 520px;
+}
+
+main h1{
+    text-shadow: 0.9px 0px 0px rgba(0, 0, 0, 0.13);
+}
+
+main span.destaque{
+    color: #F1E81D;
+}
+
+/* Footer */
+
+footer{
+    font-family: var(--fonte-prin);
+    margin: 70px 60px 1px 80px
+}
+
+footer div#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div#footer p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer div#footer p.destaque{
+    color: #F1E81D;
+}
+
+footer div#footer div#redes_so{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+footer div#footer div#facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    cursor: pointer;
+}
+
+footer div#footer div#facebook p:hover{
+    color: #3F3D56;
+}
+
+footer div#footer div#twitter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    cursor: pointer;
+}
+
+footer div#footer div#twitter p:hover{
+    color: #3F3D56;
+}
