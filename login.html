@@ -7,7 +7,7 @@
     <title>My Books - Login</title>
     <meta name="description" content="Login no My Books">
     <link rel="stylesheet" href="estilo/login.css">
-    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -25,21 +25,24 @@
     <main>
         <h1> <span class="destaque">Horror</span>  <br><br> Fantasy <br><br> <span class="destaque">Action</span></h1>
 
-        <div class="login">
-                <div id="name">
-                    <p>Name:</p>
-                    <input type="text" name="nome" id="nome">
-                </div>
-                <div id="email">
-                    <p>E-mail:</p>
-                    <input type="email" name="e-mail" id="e-mail">
-                </div>
-                <div id="passw">
-                    <p>Password:</p>
-                    <input type="text" name="password" id="password">
-                </div>
-                <button>Join now</button>
-        </div>
+        <form action="login">
+            <label>Name:</label>
+            <br><br>
+            <input type="text" name="nome" id="nome">
+            <br><br>
+
+            <label>E-mail:</label>
+            <br><br>
+            <input type="email" name="e-mail" id="e-mail">
+            <br><br>
+                
+            <label for="password">Password:</label>
+            <br><br>
+            <input type="password" name="password" id="password">
+            <br><br>
+
+            <button>Join now</button>
+        </form>
     </main>
 
     <footer>

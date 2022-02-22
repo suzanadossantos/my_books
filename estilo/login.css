@@ -91,33 +91,15 @@ main span.destaque{
     color: #F1E81D;
 }
 
-main div.login{
+main form{
     background-color: var(--cinza);
-    width: 400px;
-    height: 450px;
-    margin: 8px;
-    border-radius: 3px;
     color: var(--branco);
+    text-align: center;
+    padding: 20px;
+    width: 380px;
+    height: 450px;
+    border-radius: 5px;
 }
-
-main div.login div#name{
-    margin-left: 120px;
-    margin-top: 150px;
-}
-
-main div.login div#email{
-    margin-left: 120px;
-}
-
-main div.login div#passw{
-    margin-left: 120px;
-}
-
-main div.login button{
-    margin-left: 120px;
-}
-
-
 
 
 
