@@ -16,6 +16,6 @@ A plataforma My Books foi criado por mim. Nele eu utilizei os conhecimentos adqu
 
 ### Links
 
-- 🔗 Link do projeto:  
+- 🔗 Link do projeto: <a href="https://suzanadossantos.github.io/my_books/">confira</a>!</p>
 
-- 🔗 Meu Linkedin: https://www.linkedin.com/in/suzana-dos-santos-dev/
+- 🔗 Meu Linkedin: <a href="https://www.linkedin.com/in/suzana-dos-santos-dev/">aqui</a>
