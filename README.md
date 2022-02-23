@@ -1,16 +1,16 @@
-# My Books 
- 
-### Criação 
- 
+# My Books 📚
+ 
+### Criação ✨
+ 
 A plataforma My Books foi criado por mim. Nele eu utilizei os conhecimentos adquiridos nos cursos e exercícios. 
 
-### Ferramentas 
- 
+### Ferramentas 🛠️
+ 
 - HTML
 - CSS
 - Figma
 
-### Mais informações 
+### Mais informações 🤔
 
 - Essa foi minha primeira plataforma criada
 
