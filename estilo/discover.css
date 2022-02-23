@@ -55,6 +55,7 @@ header input#barra_pesquisa{
 
 header input#barra_pesquisa:hover{
     border-color: #F1E81D;
+    transition: 10ms;
 }
 
 header nav{
@@ -72,6 +73,7 @@ header nav a{
 
 header nav a:hover{
     color: #F1E81D;
+    transition: 10ms;
 }
 
 main{
