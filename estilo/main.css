@@ -76,6 +76,10 @@ header nav a:hover{
     transition: 10ms;
 }
 
+header img#bars{
+    display: none;
+}
+
 /* Main */
 
 main{
@@ -157,4 +161,51 @@ footer div#footer div#twitter{
 
 footer div#footer div#twitter p:hover{
     color: #3F3D56;
+}
+
+@media screen and (max-width: 850px){
+
+    header img{
+        width: 50px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header img#bars{
+        display: block;
+        width: 24px;
+    }
+
+    main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    }
+
+    main img{
+        width: 60%;
+    }
+
+    main h1{
+        font-size: 40px;
+    }
+
+    footer div#footer{
+        margin-top: 30px;
+    }
+
+    footer div#footer div#redes_so{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    
+    
 }
