@@ -4,6 +4,20 @@
  
 A plataforma My Books foi criado por mim. Nele eu utilizei os conhecimentos adquiridos nos cursos e exercícios. 
 
+### Imagens
+
+#### Menu
+
+![Thumbnail:](https://github.com/suzanadossantos/my_books/blob/main/imagens_projeto/menu.png)
+
+#### Discover
+
+![Thumbnail:](https://github.com/suzanadossantos/my_books/blob/main/imagens_projeto/discover.png)
+
+#### Login
+
+![Thumbnail:](https://github.com/suzanadossantos/my_books/blob/main/imagens_projeto/login.png)
+
 ### Ferramentas 🛠️
  
 - HTML
