@@ -110,12 +110,13 @@ main span.destaque{
 
 footer{
     font-family: var(--fonte-prin);
-    margin: 70px 60px 1px 80px
+    margin: 70px 60px 1px 80px;
 }
 
 footer div#footer{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
 }

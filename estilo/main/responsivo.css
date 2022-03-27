@@ -40,8 +40,11 @@
         font-size: 7vw;
     }
 
-    footer div#footer{ 
-       clear: both;
+    footer{ 
+        position: absolute;
+        width: 350px;
+        right: 50px;
+        left: 50px;
     }
 
     footer div#footer p{
