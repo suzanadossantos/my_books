@@ -138,20 +138,11 @@ footer div#footer div#redes_so{
     gap: 40px;
 }
 
-footer div#footer div#facebook{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5px;
-    cursor: pointer;
-}
-
 footer div#footer div#facebook p:hover{
     color: #3F3D56;
 }
 
-footer div#footer div#twitter{
+footer div#footer  div#facebook, div#twitter{
     display: flex;
     flex-direction: row;
     align-items: center;
