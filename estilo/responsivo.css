@@ -21,25 +21,6 @@
         width: 4vw;
     }
 
-    main{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 25px;
-        margin-bottom: 30px;
-        margin-top: 30px;
-    }
-
-    main img{
-        min-width: 85%;
-        max-width: 100%;
-    }
-
-    main h1{
-        font-size: 12vw;
-    }
-
     footer p.cont{
         text-align: center;
         position: absolute;

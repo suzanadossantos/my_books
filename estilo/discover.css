@@ -76,6 +76,10 @@ header nav a:hover{
     transition: 10ms;
 }
 
+header img#bars{
+    display: none;
+}
+
 main{
     display: flex;
     flex-direction: row;
