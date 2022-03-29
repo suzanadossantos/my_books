@@ -65,7 +65,7 @@ header nav{
     gap: 30px;
 }
 
-header nav a{
+header nav {
     font-size: 20px;
     color: var(--preto);
     font-weight: bold;
