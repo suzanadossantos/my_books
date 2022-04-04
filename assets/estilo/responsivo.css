@@ -1,37 +1,28 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
-    header{
+    header {
         margin-top: 10px;
     }
 
-    header img{
+    header img {
         width: 7%;
     }
 
-    header input#barra_pesquisa{
+    header input#barra_pesquisa {
         width: 60vw;
     }
 
-    header nav{
-       display: none;
-    }
-
-    header img#bars{
-        display: block;
-        width: 4vw;
-    }
-
-    footer p.cont{
+    footer p.cont {
         text-align: center;
         position: absolute;
         bottom: 0;
     }
 
-    footer div#footer p{
+    footer div#footer p {
         font-size: 2.8vw;
     }
 
-    footer div#footer div#redes_so{
+    footer div#footer div#redes_so {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -39,7 +30,7 @@
         gap: 10px;
     }
 
-    footer div#footer div#redes_so img{
+    footer div#footer div#redes_so img {
         max-width: 4.8vw;
     }
 }

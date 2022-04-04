@@ -57,24 +57,27 @@ header input#barra_pesquisa:hover{
     transition: 10ms;
 }
 
-header nav{
+header nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
 }
 
-header nav a{
+header nav ul li{
     font-size: 20px;
-    color: var(--preto);
     font-weight: bold;
+    list-style-type: none;
 }
 
-header nav a:hover{
+header nav ul li a{
+    color: var(--preto);
+}
+
+header nav ul li a:hover{
     color: #F1E81D;
     transition: 10ms;
 }
-
 header img#bars{
     display: none;
 }
