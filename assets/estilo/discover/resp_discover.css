@@ -1,5 +1,45 @@
 @media screen and (max-width: 800px){
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 40px;
+}
 
+main div.con1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 5px;
+}
+
+main div.con1 h1{
+    font-size: 27px;
+}
+
+main div#simbolos p{
+    font-size: 14px;
+}
+
+main div#simbolos div#email{
+    width: 67px;
+    height: 80px;
+}
+
+main div#simbolos div#fav{
+    width: 67px;
+    height: 80px;
+}
+
+main div#simbolos div#mais{
+    width: 67px;
+    height: 80px;
+}
+
+main img{
+    width: 35%;
+}
 
 }

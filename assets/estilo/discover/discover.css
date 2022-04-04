@@ -80,6 +80,8 @@ header img#bars{
     display: none;
 }
 
+/* Main */
+
 main{
     display: flex;
     flex-direction: row;
@@ -171,7 +173,7 @@ main div#simbolos div#fav:hover{
     color: #F1E81D;
 }
 
-/* Mais */
+/* Main */
 main div#simbolos div#mais{
     display: flex;
     flex-direction: column;
