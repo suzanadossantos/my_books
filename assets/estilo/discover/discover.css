@@ -145,7 +145,8 @@ main div#simbolos div#email{
 }
 
 main div#simbolos div#email:hover{
-    color: #F1E81D;
+    background-color: #F1E81D;
+    transition: 2ms;
 }
 
 /* Favoritos */
@@ -170,7 +171,8 @@ main div#simbolos div#fav{
 }
 
 main div#simbolos div#fav:hover{
-    color: #F1E81D;
+    background-color: #F1E81D;
+    transition: 2ms;
 }
 
 /* Main */
@@ -195,7 +197,8 @@ main div#simbolos div#mais{
 }
 
 main div#simbolos div#mais:hover{
-    color: #F1E81D;
+    background-color: #F1E81D;
+    transition: 2ms;
 }
 
 main span.destaque{

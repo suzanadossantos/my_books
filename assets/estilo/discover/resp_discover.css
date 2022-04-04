@@ -5,6 +5,7 @@ main {
     flex-direction: column;
     justify-content:center;
     gap: 40px;
+    margin: 20px;
 }
 
 main div.con1{
@@ -16,30 +17,35 @@ main div.con1{
 }
 
 main div.con1 h1{
-    font-size: 27px;
+    font-size: 7vw;
+    margin-top: 20px;
 }
 
 main div#simbolos p{
     font-size: 14px;
 }
 
+main div#simbolos{
+    gap: 40px;
+}
+
 main div#simbolos div#email{
-    width: 67px;
-    height: 80px;
+    width: 17vw;
+    height: 18vw;
 }
 
 main div#simbolos div#fav{
-    width: 67px;
-    height: 80px;
+    width: 17vw;
+    height: 18vw;
 }
 
 main div#simbolos div#mais{
-    width: 67px;
-    height: 80px;
+    width: 17vw;
+    height: 18vw;
 }
 
 main img{
-    width: 35%;
+    width: 70vw;
 }
 
 }
