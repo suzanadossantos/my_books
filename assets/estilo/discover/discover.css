@@ -80,8 +80,17 @@ header nav ul li a:hover{
     transition: 10ms;
 }
 
-header img#bars{
+.mobile-menu{
+    cursor: pointer;
     display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: black;
+    margin: 8px;
+    transition: 0.3s;
 }
 
 /* Main */

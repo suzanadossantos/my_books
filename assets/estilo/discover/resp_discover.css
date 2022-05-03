@@ -1,51 +1,111 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    gap: 40px;
-    margin: 20px;
-}
+    body {
+        overflow-x: hidden;
+    }
 
-main div.con1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    margin: 5px;
-}
+    /* Menu */
+    .nav-list {
+        position: absolute;
+        top: 12vh;
+        right: 0;
+        width: 100vw;
+        height: 80vh;
+        background: #F1E81D;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
 
-main div.con1 h1{
-    font-size: 7vw;
-    margin-top: 20px;
-}
+    .nav-list li {
+        margin-left: 0;
+        opacity: 20;
+    }
 
-main div#simbolos p{
-    font-size: 14px;
-}
+    .nav-list a:hover {
+        color: #FFFFFF;
+    }
 
-main div#simbolos{
-    gap: 40px;
-}
+    .mobile-menu {
+        display: block;
+    }
 
-main div#simbolos div#email{
-    width: 17vw;
-    height: 18vw;
-}
+    .nav-list.active {
+        transform: translateX(0);
+    }
 
-main div#simbolos div#fav{
-    width: 17vw;
-    height: 18vw;
-}
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
 
-main div#simbolos div#mais{
-    width: 17vw;
-    height: 18vw;
-}
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
 
-main img{
-    width: 70vw;
-}
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+
+    .mobile-menu.active .line2 {
+        opacity: 0;
+    }
+
+    .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        margin: 20px;
+    }
+
+    main div.con1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin: 5px;
+    }
+
+    main div.con1 h1 {
+        font-size: 7vw;
+        margin-top: 20px;
+    }
+
+    main div#simbolos p {
+        font-size: 14px;
+    }
+
+    main div#simbolos {
+        gap: 40px;
+    }
+
+    main div#simbolos div#email {
+        width: 17vw;
+        height: 18vw;
+    }
+
+    main div#simbolos div#fav {
+        width: 17vw;
+        height: 18vw;
+    }
+
+    main div#simbolos div#mais {
+        width: 17vw;
+        height: 18vw;
+    }
+
+    main img {
+        width: 70vw;
+    }
 
 }

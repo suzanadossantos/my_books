@@ -8,6 +8,7 @@
     <meta name="description" content="Login no My Books">
     <!-- Estilo -->
     <link rel="stylesheet" href="assets/estilo/login/login.css">
+    <link rel="stylesheet" href="assets/estilo/login/resp_login.css">
     <link rel="stylesheet" href="assets/estilo/responsivo.css">
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
@@ -20,18 +21,26 @@
         <input type="search" name="barra_pesquisa" id="barra_pesquisa">
 
         <nav>
-            <ul>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
                 <li><a href="index.html" rel="prev">menu</a></li>
                 <li><a href="discover.html" rel="prev">discover</a></li>
             </ul>
         </nav>
-
-        <img src="assets/imagens/bars-solid.svg" alt="menu" id="bars">
     </header>
 
     <main>
-        <h1> <span class="destaque">Horror</span>  <br><br> Fantasy <br><br> <span class="destaque">Action</span></h1>
-
+        <div class="generos">
+            <p><span class="destaque">Horror</span></p>
+            <p>Fantasy</p>
+            <p><span class="destaque">Action</span></p>
+        </div>
+        
         <form action="login">
             <div class="textfield">
                 <label>Name:</label>
@@ -75,5 +84,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="assets/js/mobile-navbar.js"></script>
 </body>
 </html>

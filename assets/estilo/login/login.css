@@ -82,6 +82,19 @@ header img#bars{
     display: none;
 }
 
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: black;
+    margin: 8px;
+    transition: 0.3s;
+}
+
 /* Main */
 
 main{
@@ -92,9 +105,17 @@ main{
     margin: 20px;
 }
 
-main h1{
+main div.generos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+main p{
     font-size: 40px;
-    cursor: pointer;
+    cursor: pointer;  
+    font-weight: bold;
 }
 
 main span.destaque{
