@@ -6,7 +6,7 @@
 
     /* Menu */
     .nav-list{
-        position: absolute;
+        position: fixed;
         top: 12vh;
         right: 0;
         width: 100vw;
@@ -63,9 +63,19 @@
         flex-direction: column-reverse;
     }
 
+    main form{
+        width: 60vw;
+        height: 65vh;
+    }
+
     main div.generos{
         display: flex;
         flex-direction: row;
         margin-top: 25px;
+        font-size: 2px;
+    }
+
+    main div.generos p{
+        font-size: 20px;
     }
 }

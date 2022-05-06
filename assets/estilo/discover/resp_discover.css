@@ -6,7 +6,7 @@
 
     /* Menu */
     .nav-list {
-        position: absolute;
+        position: fixed;
         top: 12vh;
         right: 0;
         width: 100vw;

@@ -126,8 +126,10 @@ main form{
     background-color: var(--cinza);
     color: var(--branco);
     text-align: center;
-    width: 400px;
-    height: 450px;
+    /*width: 400px;
+    height: 450px;*/
+    width: 35vw;
+    height: 65vh;
     border-radius: 5px;
 }
 
