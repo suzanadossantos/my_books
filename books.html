@@ -6,11 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Book - Books</title>
     <meta name="description" content="Acessando site de leitura virtual!">
-    <link rel="stylesheet" href="assets/estilo/books.css"> 
+    <!-- Estilo -->
+    <link rel="stylesheet" href="assets/estilo/books/books.css"> 
+    <link rel="stylesheet" href="assets/estilo/responsivo.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/54c205d4d4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Construindo...</h1>
-    <button> <a href="login.html" rel="prev">Voltar</a></button>
+    <header>
+        <img src="assets/imagens/logo.png" alt="logo (my book)">
+
+        <!-- Botão de pesquisa-->
+        <input type="search" name="barra_pesquisa" id="barra_pesquisa">
+        
+
+        <nav>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="discover.html" rel="prev">discover</a></li>
+                <li><a href="index.html" rel="prev">menu</a></li>
+            </ul>
+        </nav>  
+    </header>
+
+    <main>
+        <div class="imagens">
+            <div class="img1">
+                <img src="assets/imagens/livros/livro1.png" alt="livro (orgulho e preconceito)">
+                <button><a href=""><i class="fa-solid fa-arrow-right"></i></a></button>
+            </div>
+
+            <div class="img2">
+                <img src="assets/imagens/livros/livro2.png" alt="livro (a selecao)">
+                <button><a href=""><i class="fa-solid fa-arrow-right"></i></a></button>
+            </div>
+
+            <div class="img3">
+                <img src="assets/imagens/livros/livro3.png" alt="livro (extraordinario)">
+                <button><a href=""><i class="fa-solid fa-arrow-right"></i></a></button>
+            </div>
+
+            <div class="img4">
+                <img src="assets/imagens/livros/livro4.png" alt="livro (harry potter e a pedra filosofal)">
+                <button><a href=""><i class="fa-solid fa-arrow-right"></i></a></button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="cont">
+        <div id="footer">
+            <p>About us</p>
+
+            <!-- Redes Sociais -->
+            <div id="redes_so">
+                <div id="facebook">
+                    <img src="assets/imagens/facebook-ico.png" alt="facebook icone">
+                    <p class="destaque">Facebook</p>
+                </div>
+                <div id="twitter">
+                    <img src="assets/imagens/twitter-ico.png" alt="twitter icone">
+                    <p class="destaque">Twitter</p>
+                </div>
+            </div>
+        </div>
+        </p>
+    </footer>
+
+    <script src="assets/js/mobile-navbar.js"></script>
 </body>
 </html>

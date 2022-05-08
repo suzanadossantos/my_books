@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,300&display=swap');
+
+:root{
+    --cinza: #3F3D56;
+    --cinza_claro: #F2F2F2;
+    --amarelo: #F1E81D;
+    --branco: #FFFFFF;
+    --preto: #000000;
+
+    --fonte-prin: 'Lato', Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--fonte-prin);
+    color: var(--preto);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 2px;
+    justify-content: space-evenly;
+}
+
+header img{
+    width: 70px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+header input#barra_pesquisa{
+    border: 2.5px solid;
+    border-radius: 5px;
+    border-color: var(--preto);
+    width: 55%;
+    height: 36px;
+    padding: 10px;
+    color: #F1E81D;
+
+    font-size: 16px;
+}
+
+header input#barra_pesquisa:hover{
+    border-color: #F1E81D;
+    transition: 10ms;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+header nav ul li{
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+header ul li a{
+    color: var(--preto);
+}
+
+header nav ul li a:hover{
+    color: #F1E81D;
+    transition: 10ms;
+}
+
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: black;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+/* Main */
+
+main div.imagens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin: 25px;
+}
+
+main div.imagens img{
+    width: 15vw;
+    margin: 20px;
+}
+
+main div.imagens button{
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 0.8px;
+    background-color: var(--amarelo);
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+
+main div.imagens button:hover{
+    background-color: var(--branco);
+    transition: 2ms;
+}
+
+main div.imagens button i{
+    color: var(--preto);
+    font-size: 15px;
+}
+
+div.imagens div.img1, div.img2, div.img3, div.img4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer */
+
+footer{
+    font-family: var(--fonte-prin);
+    margin: 70px 60px 1px 80px;
+}
+
+footer div#footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div#footer p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer div#footer p.destaque{
+    color: #F1E81D;
+}
+
+footer div#footer div#redes_so{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+footer div#footer div#facebook p:hover{
+    color: #3F3D56;
+}
+
+footer div#footer  div#facebook, div#twitter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    cursor: pointer;
+}
+
+footer div#footer div#twitter p:hover{
+    color: #3F3D56;
+}
+
+@media screen and (max-width: 800px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Menu */
+    .nav-list{
+        position: fixed;
+        top: 12vh;
+        right: 0;
+        width: 100vw;
+        height: 80vh;
+        background: #F1E81D;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li{
+        margin-left: 0;
+        opacity: 20;
+    }
+
+    .nav-list a:hover{
+        color: #FFFFFF;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .nav-list.active{
+        transform: translateX(0);
+    }
+
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .mobile-menu.active .line1{
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+
+    .mobile-menu.active .line2{
+        opacity: 0;
+    }
+
+    .mobile-menu.active .line3{
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
+
+    main div.imagens{
+        flex-direction: column;
+    }
+}
