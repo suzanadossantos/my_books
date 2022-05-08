@@ -22,6 +22,7 @@ A plataforma My Books foi criado por mim. Nele eu utilizei os conhecimentos adqu
  
 - HTML
 - CSS
+- JavaScript
 - Figma
 
 ### Mais informações 🤔
