@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,300&display=swap');
+
+:root{
+    --cinza: #3F3D56;
+    --cinza_claro: #F2F2F2;
+    --amarelo: #F1E81D;
+    --branco: #FFFFFF;
+    --preto: #000000;
+
+    --fonte-prin: 'Lato', Arial, sans-serif;
+}
