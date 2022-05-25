@@ -154,6 +154,8 @@ main form button:hover{
 /* Footer */
 
 footer{
+    position: relative;
+    top: 15vh;
     font-family: var(--fonte-prin);
     margin: 70px 60px 1px 80px
 }
