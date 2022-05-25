@@ -2,11 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 
 :root{
+
+    /* Cores */
     --cinza: #3F3D56;
     --cinza_claro: #F2F2F2;
     --amarelo: #F1E81D;
     --branco: #FFFFFF;
     --preto: #000000;
 
+    --rosa: #F45AA4;
+    --azul: #4DC8E9;
+    --marrom: #56090E;
+    --azul2: #659DAE;
+
+    /* Fontes */
+
     --fonte-prin: 'Lato', Arial, sans-serif;
+    --fonte-secun: 'Lustria', serif;
 }
