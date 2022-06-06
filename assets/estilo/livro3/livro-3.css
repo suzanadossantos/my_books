@@ -53,7 +53,7 @@ header nav ul li {
 }
 
 header ul li a {
-    color: var(--preto);
+    color: var(--branco);
 }
 
 header nav ul li a:hover {
@@ -127,14 +127,14 @@ div.classif div.ct {
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
-    color: var(--rosa);
+    color: var(--marrom);
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
 }
 
 div.classif div.ct:hover {
-    background-color: var(--preto);
+    background-color: rgba(0, 0, 0, 0.233);
 }
 
 div.pais {
@@ -178,7 +178,7 @@ div.buttons button:hover{
 }
 
 .cor-livro {
-    color: var(--rosa);
+    color: var(--marrom);
     font-size: 20px;
 }
 
@@ -251,7 +251,7 @@ footer div#footer div#twitter p:hover {
         right: 0;
         width: 50%;
         height: 100vh;
-        background: var(--rosa);
+        background: var(--marrom);
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
@@ -265,7 +265,7 @@ footer div#footer div#twitter p:hover {
     }
 
     .nav-list a:hover {
-        color: #FFFFFF;
+        color: rgba(255, 255, 255, 0.5);
     }
 
     .mobile-menu {

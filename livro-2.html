@@ -1,28 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Book - Books</title>
-    <meta name="description" content="Acessando site de leitura virtual!">
-    <!-- Estilo -->
-    <link rel="stylesheet" href="assets/estilo/books/books.css"> 
-    <link rel="stylesheet" href="assets/estilo/responsivo.css">
+    <title>Extraordinário</title>
+    <link rel="stylesheet" href="assets/estilo/livro2/livro-2.css">
     <link rel="stylesheet" href="assets/estilo/variaveis.css">
     <link rel="stylesheet" href="assets/estilo/reset.css">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
-    <!-- Font Awesome-->
-    <script src="https://kit.fontawesome.com/54c205d4d4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <img src="assets/imagens/logo.png" alt="logo (my book)">
 
         <!-- Botão de pesquisa-->
         <input type="search" name="barra_pesquisa" id="barra_pesquisa">
-        
+
 
         <nav>
             <div class="mobile-menu">
@@ -35,29 +30,38 @@
                 <li><a href="discover.html" rel="prev">discover</a></li>
                 <li><a href="index.html" rel="prev">log out</a></li>
             </ul>
-        </nav>  
+        </nav>
     </header>
 
     <main>
-        <div class="imagens">
-            <div class="img1">
-                <img src="assets/imagens/livros/livro1.png" alt="livro (orgulho e preconceito)">
-                <button><a href="livro-1.html"><i class="fa-solid fa-arrow-right"></i></a></button>
+        <div class="livro-descr">
+
+            <div class="livro">
+                <img src="assets/imagens/livros/livro2.png" alt="livro Extraordinário">
+                <h1>Extraordinário</h1>
             </div>
 
-            <div class="img2">
-                <img src="assets/imagens/livros/livro2.png" alt="livro (extraordinario)">
-                <button><a href="livro-2.html"><i class="fa-solid fa-arrow-right"></i></a></button>
+            <p class="fonte-secun">August Pullman, o Auggie, nasceu com uma síndrome cuja sequela é uma severa deformidade facial, que lhe impôs diversas cirurgias e complicações médicas. Por isso ele nunca frequentou uma escola de verdade... Até agora.</p>
+
+            <p class="fonte-secun">Todo mundo sabe que é difícil ser um aluno novo, mais ainda quando se tem um rosto tão diferente. Prestes a começar o quinto ano em um colégio particular em Nova York, Auggie tem uma missão nada fácil pela frente: convencer os colegas de que, apenas da aparência incomum, ele é um menino igual a todos os outros.</p>
+
+            <div class="classif">
+                <div class="ct cor-livro">
+                    Literatura infantil
+                </div>
+                <div class="ct cor-livro">
+                    Drama
+                </div>
             </div>
 
-            <div class="img3">
-                <img src="assets/imagens/livros/livro3.png" alt="livro (harry potter e a pedra filosofal)">
-                <button><a href="livro-3.html"><i class="fa-solid fa-arrow-right"></i></a></button>
+            <div class="pais">
+                <p>País</p>
+                <p class="cor-livro fonte-secun">Estados Unidos</p>
             </div>
 
-            <div class="img4">
-                <img src="assets/imagens/livros/livro4.png" alt="livro (a selecao)">
-                <button><a href="livro-4.html"><i class="fa-solid fa-arrow-right"></i></a></button>
+            <div class="buttons">
+                <button>Ler</button>
+                <a href="books.html" rel="prev"><button> + Livros</button></a></a>
             </div>
         </div>
     </main>
@@ -81,7 +85,7 @@
         </div>
         </p>
     </footer>
-
     <script src="assets/js/mobile-navbar.js"></script>
 </body>
+
 </html>

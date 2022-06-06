@@ -127,7 +127,7 @@ div.classif div.ct {
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
-    color: var(--rosa);
+    color: var(--azul);
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
@@ -178,7 +178,7 @@ div.buttons button:hover{
 }
 
 .cor-livro {
-    color: var(--rosa);
+    color: var(--azul);
     font-size: 20px;
 }
 
@@ -251,7 +251,7 @@ footer div#footer div#twitter p:hover {
         right: 0;
         width: 50%;
         height: 100vh;
-        background: var(--rosa);
+        background: var(--azul);
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
