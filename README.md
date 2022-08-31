@@ -18,7 +18,7 @@ A plataforma My Books foi criado por mim. Nele eu utilizei os conhecimentos adqu
 
 ![Thumbnail:](https://github.com/suzanadossantos/my_books/blob/main/imagens_projeto/login.png)
 
-### TECNOLOGIAS E FERRAMENTAS 🛠️
+### Tecnologias E Ferramentas 🛠️
  
 - HTML
 - CSS
