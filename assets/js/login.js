@@ -5,7 +5,7 @@ function login(){
 
     //Verificar todas as informações
     if(nome != "" &&  email != "" && senha != ""){
-        location.href = "books.html";
+        location.href = "paginas/books.html";
     }else{
         alert("Verifique suas informações!");
     }
