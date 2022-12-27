@@ -25,11 +25,11 @@ A plataforma My Books foi criado por mim. Nele eu utilizei os conhecimentos adqu
 - JavaScript
 - Figma
 
-### Mais informações 🤔
+### Mais informações...
 
 - Essa foi minha primeira plataforma criada
 
-### Links
+### Links 🔗
 
 - Link do projeto: <a href="https://suzanadossantos.github.io/my_books">confira</a>!
 
