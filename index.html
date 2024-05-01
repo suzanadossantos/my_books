@@ -1,73 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Book</title>
-    <meta name="description" content="Site de leitura virtual!">
-    <!-- Estilo -->
-    <link rel="stylesheet" href="assets/estilo/main/main.css">
-    <link rel="stylesheet" href="assets/estilo/responsivo.css">
-    <link rel="stylesheet" href="assets/estilo/variaveis.css">
-    <link rel="stylesheet" href="assets/estilo/reset.css">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
-    <!-- Font Awesome-->
-    <script src="https://kit.fontawesome.com/54c205d4d4.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <header>
-        <img src="assets/imagens/logo.png" alt="logo (my book)">
-
-        <!-- Botão de pesquisa-->
-        <input type="search" name="barra_pesquisa" id="barra_pesquisa">
-        
-
-        <nav>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-
-            <ul class="nav-list">
-                <li><a href="discover.html" rel="next">discover</a></li>
-                <li><a href="login.html" rel="next">login</a></li>
-            </ul>
-        </nav>  
-    </header>
-
-    <main>
-        <!-- Imagem principal -->
-        <img src="assets/imagens/menu/leitura.png" alt="pessoa lendo">
-
-        <h1>Find a <span class="destaque">book </span><br> Find a <span class="destaque">story</span></h1>
-    </main>
-
-    <footer>
-        <p class="cont">
-        <div id="footer">
-            <p>About us</p>
-
-            <!-- Redes Sociais -->
-            <div id="redes_so">
-                <div id="facebook">
-                    <img src="assets/imagens/facebook-ico.png" alt="facebook icone">
-                    <p class="destaque">Facebook</p>
-                </div>
-                <div id="twitter">
-                    <img src="assets/imagens/twitter-ico.png" alt="twitter icone">
-                    <p class="destaque">Twitter</p>
-                </div>
-            </div>
-        </div>
-        </p>
-    </footer>
-
-    <script src="assets/js/mobile-navbar.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+    <title>My Books</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

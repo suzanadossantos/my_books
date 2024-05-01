@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+.carousel{
+    width: 60%;
+    margin: auto;
+}
+
+.carousel img{
+    width: 100%;
+    margin: auto;
+}
+
+.carousel span{
+    color: #F1E81D;
+}
+
+.carousel h3{
+    color: #000;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+}
+
+.newbooks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1E81D;
+    margin: 25px 0px;
+    padding: 20px 0px;
+}
+
+.newbooks h3{
+    font-family: "Rowdies", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #000;
+}
+
+.newbooks div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+@media (max-width: 500px){
+    .carousel h3{
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 300px){
+    .carousel{
+        width: 70%;
+    }
+
+    .newbooks h3{
+        font-size: 0.7em;
+    }
+}

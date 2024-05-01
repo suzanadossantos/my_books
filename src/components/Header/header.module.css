@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+}
+
+img{
+    width: 10%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+}
+
+@media (max-width: 980px) {
+    img{
+        width: 15%;
+    }
+}
+
+@media (max-width: 500px){
+    .header{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    img{
+        width: 20%;
+    }
+}
+
+@media (max-width: 450px){
+    .nav{
+     gap: 10px;   
+    }
+
+    .nav a{
+        font-size: 0.7em;
+    }
+}
