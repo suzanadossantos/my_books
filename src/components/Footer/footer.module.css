@@ -1,0 +1,42 @@
+.footer{
+    background-color: #F1E81D;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.icons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons i{
+    cursor: pointer;
+    padding: 3px 15px;
+    font-size: 1.3em;
+    color: #000;
+    background-color: #FFF;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+
+.website{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: last baseline;
+    color: #000;
+}
+
+.website img{
+    width: 5vw;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}

@@ -2,12 +2,13 @@
 
 .carousel{
     width: 60%;
-    margin: auto;
+    margin: 35px auto;
 }
 
 .carousel img{
     width: 100%;
     margin: auto;
+    cursor: pointer;
 }
 
 .carousel span{
@@ -32,7 +33,7 @@
 
 .newbooks h3{
     font-family: "Rowdies", sans-serif;
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: 400;
     color: #000;
 }
@@ -43,6 +44,17 @@
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+}
+
+.newbooks img{
+    cursor: pointer;
+}
+
+.video{
+    display: block;
+    margin: 35px auto;
+    width: 50%;
+    border: 2px solid #000;
 }
 
 @media (max-width: 500px){

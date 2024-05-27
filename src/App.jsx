@@ -6,9 +6,9 @@ import{
   Route
 } from 'react-router-dom';
 
-import { Home } from './pages/home'
-import { Login } from './pages/login'
-import { Discover } from './pages/discover'
+import { Home } from './pages/home/index.jsx'
+import { Login } from './pages/login/index.jsx'
+import { Discover } from './pages/discover/index.jsx'
 
 function App() {
   return (

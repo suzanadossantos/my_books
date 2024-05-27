@@ -1,6 +1,5 @@
-import React from 'react'
-
-import { Header } from '../../components/Header';
+import { Header } from '../../components/Header/index.jsx';
+import { Footer } from '../../components/Footer/index.jsx';
 import styles from './home.module.css';
 
 //bootstrap
@@ -19,6 +18,8 @@ import book5 from '../../assets/home/books/book5.png';
 import book6 from '../../assets/home/books/book6.png';
 import book7 from '../../assets/home/books/book7.png';
 import book8 from '../../assets/home/books/book8.png';
+
+import video from '../../assets/home/my_books.mp4';
 
 const Home = () => {
   return (<>
@@ -61,7 +62,12 @@ const Home = () => {
       </div>
     </div>
 
-    
+    <video controls loop className={styles.video}>
+      <source src={video} type="video/mp4"/>
+      Your browser does not support the video tag.
+    </video>
+
+    <Footer />
   </>)
 }
 
